@@ -46,7 +46,7 @@ Feel free to customize the content, styles, and structure to suit your personal 
 
 ## Contact
 If you have any questions, suggestions, or opportunities, feel free to get in touch with me:
-- Email: your.email@example.com
+- Email: Nischal060@gmail.com
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/nischal-acharya101/)
 - Portfolio: [https://yourportfolio.com](https://acharyanischal.com.np)
 
