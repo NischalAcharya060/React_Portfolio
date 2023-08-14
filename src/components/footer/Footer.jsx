@@ -39,9 +39,9 @@ const Footer = () => {
             <p>Instagram</p>
           </a>
         </div>
-        <div className="sm:text-[12px]">
-          | Copyright &copy; <span>2023 Dev AlphaSpace </span> All rights reserved
-          <a href="#"></a> |
+        <div className="sm:text-[12px]" style={{ cursor: 'pointer' }}>
+          | Copyright &copy; <span>2023 Nischal Acharya </span> All rights reserved
+          <a href="https://acharyanischal.com.np" target={"_blank"}></a> |
         </div>
       </div>
     </div>
