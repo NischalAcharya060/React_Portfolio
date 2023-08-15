@@ -35,21 +35,18 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Software Developer
+                  Full-stack Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Company Name
+                  Shangrila Microsystem Pvt Ltd
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  June 2023 - Present
+                  June 2023 - Present (Intership)
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                  During my internship at Shangrila Microsystem Pvt Ltd, I've gained practical experience as a Full-stack Developer. I've worked with Laravel and Vue.js to develop user-friendly web applications. I've contributed to both front-end and back-end tasks, enhancing my skills in modern web development technologies.
+
+                  My time here has exposed me to real-world projects, taught me about collaboration, and given me insights into agile development practices. I've enjoyed learning and contributing, and I'm excited to continue my journey in web development.
                 </p>
               </div>
             </div>
@@ -73,21 +70,17 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  B.Tech, Computer Science
-                </h1>
+                  BSc (Hons) Computing                </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  College Name
+                  London Metropolitan University
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2023 - Year 2027
+                  Year 2022 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                  Pursuing a BSc (Hons) in Computing at London Metropolitan University. My studies have equipped me with a solid foundation in various areas of computer science. From algorithms to software engineering principles, I've developed a deep understanding of the field.
+
+                  I've had the opportunity to work on practical projects and collaborate with fellow students, enhancing my problem-solving skills and critical thinking. I'm excited to continue expanding my knowledge and applying it to real-world challenges in the tech industry.
                 </p>
               </div>
             </div>
