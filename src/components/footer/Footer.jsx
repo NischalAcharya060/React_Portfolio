@@ -10,38 +10,39 @@ const Footer = () => {
         <h2 
         data-aos="zoom-out"
          className=" font-bold text-5xl sm:text-3xl">Let's Talk</h2>
-        <div className=" flex items-center justify-center gap-8 sm:gap-5">
-          <a 
-          data-aos="fade-up" data-aos-duration="1000"
+        {/*<div className=" flex items-center justify-center gap-8 sm:gap-5">*/}
+        {/*  <a */}
+        {/*  data-aos="fade-up" data-aos-duration="1000"*/}
 
-            href=""
-            className="box font-medium text-white   flex items-center justify-center flex-col"
-          >
-            <FaTelegramPlane className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>Telegram</p>
-          </a>
-          <a 
-          data-aos="fade-up" data-aos-duration="1200"
+        {/*    href=""*/}
+        {/*    className="box font-medium text-white   flex items-center justify-center flex-col"*/}
+        {/*  >*/}
+        {/*    <FaTelegramPlane className=" text-black text-3xl hover:scale-125 cursor-pointer" />*/}
+        {/*    <p>Telegram</p>*/}
+        {/*  </a>*/}
+        {/*  <a */}
+        {/*  data-aos="fade-up" data-aos-duration="1200"*/}
 
-            href=""
-            className="box font-medium text-white  flex items-center justify-center flex-col"
-          >
-            <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>WhatsApp</p>
-          </a>
-          <a 
-          data-aos="fade-up" data-aos-duration="1400"
+        {/*    href=""*/}
+        {/*    className="box font-medium text-white  flex items-center justify-center flex-col"*/}
+        {/*  >*/}
+        {/*    <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />*/}
+        {/*    <p>WhatsApp</p>*/}
+        {/*  </a>*/}
+        {/*  <a */}
+        {/*  data-aos="fade-up" data-aos-duration="1400"*/}
 
-            href=""
-            className="box font-medium text-white  flex items-center justify-center flex-col"
-          >
-            <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>Instagram</p>
-          </a>
-        </div>
+        {/*    href=""*/}
+        {/*    className="box font-medium text-white  flex items-center justify-center flex-col"*/}
+        {/*  >*/}
+        {/*    <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />*/}
+        {/*    <p>Instagram</p>*/}
+        {/*  </a>*/}
+        {/*</div>*/}
+
         <div className="sm:text-[12px]" style={{ cursor: 'pointer' }}>
-          | Copyright &copy; <span>2023 Nischal Acharya </span> All rights reserved
-          <a href="https://acharyanischal.com.np" target={"_blank"}></a> |
+          | Copyright &copy;<span>{new Date().getFullYear()} </span>
+          <a href="https://acharyanischal.com.np" target="_blank" style={{ fontWeight: 'bold' }}>Nischal Acharya</a> All rights reserved |
         </div>
       </div>
     </div>
