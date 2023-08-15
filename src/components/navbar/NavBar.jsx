@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
+import colors from "tailwindcss/colors.js";
 
 const navItems = [
   {
@@ -62,7 +63,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            Nischal Acharya.
+           <span className="text-yellow-500">Nischal</span>  Acharya
           </Link>
         </div>
         <div

@@ -6,14 +6,14 @@ import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 
 
 import {
+  SiFlutter,
   SiJavascript,
-  SiTailwindcss,
   SiMongodb,
-  SiExpress,
+  SiVuedotjs,
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { SiNextdotjs } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
+import {FaLaravel, FaPhp, FaReact} from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
 const Skills = ({ darkMode }) => {
@@ -42,19 +42,12 @@ const Skills = ({ darkMode }) => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
-                <ProgressBar
-                  logo={<SiJavascript />}
-                  name={"Javascript"}
-                  value={80}
-                />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
-                <ProgressBar
-                  logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
-                  value={80}
-                />
+                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={90} />
+                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={90} />
+                <ProgressBar logo={<SiJavascript />} name={"Javascript"} value={50}/>
+                <ProgressBar logo={<FaReact />} name={"React Js"} value={20} />
+                <ProgressBar logo={<FaPhp />} name={"PHP"} value={30} />
+                <ProgressBar logo={<FaLaravel />} name={"Laravel"} value={20}/>
               </div>
             </div>
           </div>
@@ -76,25 +69,19 @@ const Skills = ({ darkMode }) => {
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={<SiVuedotjs />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"Vue Js"}
               />
               <SkillBox
-                className=""
-                logo={
-                  <GrCode/>
-                }
+                logo={<SiFlutter/>}
                 black={"black"}
                 white={"white"}
-                skill={"C++"}
+                skill={"Flutter"}
               />
                <SkillBox
-                className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
-                }
+                logo={<SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />}
                 black={"black"}
                 white={"white"}
                 skill={"Next Js"}
@@ -111,7 +98,7 @@ const Skills = ({ darkMode }) => {
         >
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios-filled/50/null/c-plus-plus-logo.png"
+            src="https://www.agilesparks.com/wp-content/uploads/2022/08/Java_logo_icon.png"
           />
 
           <img
@@ -131,17 +118,9 @@ const Skills = ({ darkMode }) => {
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://img.icons8.com/ios-filled/50/null/git.png"
             />
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src="https://img.icons8.com/windows/50/null/sass--v1.png"
-            />
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://img.icons8.com/color/48/null/c-plus-plus-logo.png"
-          />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios-filled/50/null/python.png"
           />
           <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
           <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/nodejs.png"/>
