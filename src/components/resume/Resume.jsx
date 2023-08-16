@@ -25,7 +25,7 @@ const Resume = () => {
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
               Experience
             </legend>
-            <div className=" relative">
+            <div className="relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
                 <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
@@ -50,6 +50,59 @@ const Resume = () => {
                 </p>
               </div>
             </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            {/*<div className="relative">*/}
+            {/*  /!* design *!/*/}
+            {/*  <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">*/}
+            {/*    <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>*/}
+            {/*    <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>*/}
+            {/*    <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>*/}
+            {/*  </div>*/}
+            {/*  /!* design *!/*/}
+            {/*  <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">*/}
+            {/*    <h1 className="text-[1.4rem] font-semibold sm:text-xl">*/}
+            {/*      VOLUNTEERING EXPERIENCE*/}
+            {/*    </h1>*/}
+            {/*    <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">*/}
+            {/*      Aarambha Foundation Jhapa*/}
+            {/*    </span>*/}
+            {/*    <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">*/}
+            {/*      June 2022 - Present*/}
+            {/*    </span>*/}
+            {/*    <p className=" text-[.9rem] text-justify break-words text-gray-500">*/}
+            {/*      I have been actively involved in volunteering with the Aarambha Foundation in Jhapa since June 2022. As a dedicated volunteer, I've had the privilege to contribute to various community initiatives aimed at improving education, healthcare, and social well-being.*/}
+
+            {/*      My role has allowed me to collaborate with a diverse team of individuals who share a passion for creating positive change. Through my volunteering experiences, I've developed valuable teamwork, communication, and leadership skills. I'm proud to be part of an organization that is committed to making a difference in our community.*/}
+
+            {/*      Whether it's organizing events, leading workshops, or participating in outreach programs, I find immense satisfaction in contributing to causes that align with my values. I look forward to continuing my journey as a volunteer and making a lasting impact on the lives of others.*/}
+            {/*    </p>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </fieldset>
         </div>
         {/*Education*/}
@@ -84,57 +137,55 @@ const Resume = () => {
                 </p>
               </div>
             </div>
-{/*            <br/>*/}
-{/*            <br/>*/}
-{/*            <br/>*/}
-{/*            /!* Second Education Entry *!/*/}
-{/*            <div className=" relative">*/}
-{/*              /!* design *!/*/}
-{/*              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">*/}
-{/*                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>*/}
-{/*                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>*/}
-{/*                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>*/}
-{/*              </div>*/}
-{/*              /!* design *!/*/}
-{/*              <div className="flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">*/}
-{/*                <h1 className="text-[1.4rem] font-semibold sm:text-xl">*/}
-{/*                  Slc(Management)                </h1>*/}
-{/*                <span className="text-[.9rem] font-semibold text-gray-500 sm:text-base">*/}
-{/*Mount Everest English secondary School        </span>*/}
-{/*                <span className="text-[.9rem] font-semibold text-yellow-500 sm:text-base">*/}
-{/*          March 2019 - December 2021*/}
-{/*        </span>*/}
-{/*                <p className="text-[.9rem] text-justify text-gray-500">*/}
-{/*                  Description for another education entry...*/}
-{/*                </p>*/}
-{/*              </div>*/}
-{/*            </div>*/}
-{/*            <br/>*/}
-{/*            <br/>*/}
-{/*            <br/>*/}
-{/*            /!* Third Education Entry *!/*/}
-{/*            <div className=" relative">*/}
-{/*              /!* design *!/*/}
-{/*              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">*/}
-{/*                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>*/}
-{/*                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>*/}
-{/*                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>*/}
-{/*              </div>*/}
-{/*              /!* design *!/*/}
-{/*              <div className="flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">*/}
-{/*                <h1 className="text-[1.4rem] font-semibold sm:text-xl">*/}
-{/*                  SEE                </h1>*/}
-{/*                <span className="text-[.9rem] font-semibold text-gray-500 sm:text-base">*/}
-{/*          Mount Everest English secondary School*/}
-{/*        </span>*/}
-{/*                <span className="text-[.9rem] font-semibold text-yellow-500 sm:text-base">*/}
-{/*          January 2009 - December 2019*/}
-{/*        </span>*/}
-{/*                <p className="text-[.9rem] text-justify text-gray-500">*/}
-{/*                  Description for another education entry...*/}
-{/*                </p>*/}
-{/*              </div>*/}
-{/*            </div>*/}
+            <br/>
+            <br/>
+            {/* Second Education Entry */}
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className="flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Slc(Management)                </h1>
+                <span className="text-[.9rem] font-semibold text-gray-500 sm:text-base">
+Mount Everest English secondary School        </span>
+                <span className="text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+          March 2019 - December 2021
+        </span>
+                <p className="text-[.9rem] text-justify text-gray-500">
+                  During this transformative period, I navigated the halls of knowledge, seizing every opportunity to learn and grow. The Mount Everest English Secondary School provided the nurturing environment for my educational pursuits in management. From March 2019 to December 2021, I immersed myself in a wealth of knowledge, honing my skills and gaining invaluable experiences. This chapter marked a significant step towards my journey of personal and professional development.
+                </p>
+              </div>
+            </div>
+            <br/>
+            <br/>
+            {/* Third Education Entry */}
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className="flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  SEE                </h1>
+                <span className="text-[.9rem] font-semibold text-gray-500 sm:text-base">
+          Mount Everest English secondary School
+        </span>
+                <span className="text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+          January 2009 - December 2019
+        </span>
+                <p className="text-[.9rem] text-justify text-gray-500">
+                  My academic journey took a significant stride during the years spent at the Mount Everest English Secondary School. From January 2009 to December 2019, I was immersed in a world of learning, discovery, and personal growth. Through every lesson and experience, I honed my skills and nurtured my intellectual curiosity. The institution provided the fertile ground for my development, and I embraced each day with a passion for knowledge and a thirst for excellence.
+                </p>
+              </div>
+            </div>
 
           </fieldset>
         </div>
