@@ -32,6 +32,9 @@ const WorkCard = () => {
                 <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
                   {data.desc}
                 </p>
+                <br/>
+                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">Technologies Used</p>
+                <span className="text-gray-900 text-base leading-[1.4] text-justify w-[90%]">{data.tech}</span>
                 <div className=" flex items-center justify-center gap-4">
                   <Link
                     to={data.link}

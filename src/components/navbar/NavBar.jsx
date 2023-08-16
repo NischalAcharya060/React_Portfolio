@@ -63,7 +63,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-           <span className="text-yellow-500">Nischal</span>  Acharya
+           <span className="text-yellow-500"> Nischal</span> Acharya
           </Link>
         </div>
         <div
