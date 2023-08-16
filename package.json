@@ -19,6 +19,7 @@
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1",
     "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.3",
     "react-type-animation": "^2.1.2",
     "react-typewriter-effect": "^1.1.0",
     "react-useanimations": "^2.10.0",

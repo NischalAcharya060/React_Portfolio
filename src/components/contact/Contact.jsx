@@ -2,6 +2,9 @@ import React, {useRef, useState} from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { RiSendPlaneFill } from "react-icons/ri";
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -18,10 +21,10 @@ const Contact = () => {
           "-qiVxTcSYDKmI-Zkf"
       );
       console.log("Email sent successfully");
-      setSubmitStatus("success");
+      toast.success("Your form has been submitted successfully");
     } catch (error) {
       console.error("Error sending email", error);
-      setSubmitStatus("error");
+      toast.error("Error while submitting your form. Please try again later.");
     }
 
     e.target.reset();
@@ -94,13 +97,7 @@ const Contact = () => {
                 <span>Send</span>
                 <RiSendPlaneFill />
               </button>
-              {/* Display submit status */}
-              {submitStatus === "success" && (
-                  <p className="text-green-500">Form submitted successfully!</p>
-              )}
-              {submitStatus === "error" && (
-                  <p className="text-red-500">Error submitting form. Please try again later.</p>
-              )}
+              <ToastContainer />
             </form>
           </div>
         </div>
