@@ -1,7 +1,8 @@
 import React from "react";
-import { FaTelegramPlane } from "react-icons/fa";
+import {FaFacebook, FaLinkedinIn, FaTelegramPlane} from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiInstagramFill } from "react-icons/ri";
+import {AiFillGithub, AiFillInstagram, AiFillTwitterCircle} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className=" bg-yellow-400 h-full flex flex-col gap-8 items-center justify-between p-10 sm:p-7">
         <h2 
         data-aos="zoom-out"
-         className=" font-bold text-5xl sm:text-3xl">Let's Talk</h2>
+         className=" font-bold text-5xl sm:text-3xl">Nischal Acharya</h2>
         {/*<div className=" flex items-center justify-center gap-8 sm:gap-5">*/}
         {/*  <a */}
         {/*  data-aos="fade-up" data-aos-duration="1000"*/}
@@ -39,6 +40,44 @@ const Footer = () => {
         {/*    <p>Instagram</p>*/}
         {/*  </a>*/}
         {/*</div>*/}
+          <div className="icons flex mt-5">
+              <ul
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  className=" flex gap-5"
+              >
+                  <li>
+                      <a href="https://github.com/NischalAcharya060" target={"_blank"}>
+                          {" "}
+                          <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.linkedin.com/in/nischal-acharya101/" target={"_blank"}>
+                          {" "}
+                          <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.instagram.com/its_nischalacharya/" target={"_blank"}>
+                          {" "}
+                          <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/Nischal.Acharya.58760" target={"_blank"}>
+                          {" "}
+                          <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://twitter.com/Nischal79783380" target={"_blank"}>
+                          {" "}
+                          <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                      </a>
+                  </li>
+              </ul>
+          </div>
 
         <div className="sm:text-[12px]" style={{ cursor: 'pointer' }}>
           | Copyright &copy;<span>{new Date().getFullYear()} </span>
