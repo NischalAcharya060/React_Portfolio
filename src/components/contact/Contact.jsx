@@ -69,26 +69,30 @@ const Contact = () => {
                   type="email"
                   placeholder="Email: Nischal060@gmail.com"
                   name="user_email"
+                  required
               />
               <input
                   className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
                   type="text"
                   placeholder="Name: Nischal Acharya"
                   name="user_name"
+                  required
               />
               <input
                   className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
                   type="text"
                   placeholder="Subject: I need help in this..."
                   name="user_subject"
+                  required
               />
               <textarea
                   className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
                   rows="4"
                   cols="50"
-                  placeholder="Write your message"
+                  placeholder="Message: Write your message"
                   name="message"
                   id="message"
+                  required
               />
               <button
                   className="bg-yellow-500 w-full text-white font-semibold p-2 rounded-lg flex items-center justify-center space-x-1"
