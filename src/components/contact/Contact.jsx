@@ -4,14 +4,23 @@ import { RiSendPlaneFill } from "react-icons/ri";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 const Contact = () => {
   const formRef = useRef();
+  const recaptchaRef = useRef();
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const sendEmail = async (e) => {
     e.preventDefault();
+
+    const reCAPTCHAValue = recaptchaRef.current.getValue();
+
+    if (!reCAPTCHAValue) {
+      toast.error("Please complete the reCAPTCHA.");
+      return;
+    }
 
     try {
       await emailjs.sendForm(
@@ -29,6 +38,8 @@ const Contact = () => {
 
     e.target.reset();
   };
+
+
 
   return (
       <div id="contact" className="container m-auto mt-16">
@@ -94,6 +105,11 @@ const Contact = () => {
                   id="message"
                   required
               />
+              <ReCAPTCHA
+                  ref={recaptchaRef}
+                  sitekey="6Leu0q4nAAAAAA6B5LZvGfCbM432JKOtvgCtiUCO"
+              />
+
               <button
                   className="bg-yellow-500 w-full text-white font-semibold p-2 rounded-lg flex items-center justify-center space-x-1"
                   type="submit"
