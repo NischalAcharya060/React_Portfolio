@@ -37,7 +37,7 @@ const Hero = () => {
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-yellow-500 text-4xl font-bold sm:text-3xl"
+              className="text-violet-700 text-4xl font-bold sm:text-3xl"
             />
             <p
               // data-aos="fade-up"
@@ -51,13 +51,13 @@ const Hero = () => {
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
               href="https://www.linkedin.com/in/nischal-acharya101/"
-              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
+              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-violet-700"
               target={"_blank"}>
               <span> Hire Me</span>
             </a>
             <a
               href={NischalCV}
-              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
+              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-violet-700"
               download
             >
               <div className="flex items-center gap-1">

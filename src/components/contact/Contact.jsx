@@ -68,7 +68,7 @@ const Contact = () => {
             {/*<div className="flex p-5 items-center justify-center">*/}
             {/*  <button*/}
             {/*      data-aos="zoom-in"*/}
-            {/*      className="text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)]"*/}
+            {/*      className="text-violet-700 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)]"*/}
             {/*  >*/}
             {/*    <BsArrowRight className="md:rotate-90" />*/}
             {/*  </button>*/}
@@ -117,7 +117,7 @@ const Contact = () => {
               />
 
               <button
-                  className="bg-yellow-500 w-full text-white font-semibold p-2 rounded-lg flex items-center justify-center space-x-1"
+                  className="bg-violet-700 w-full text-white font-semibold p-2 rounded-lg flex items-center justify-center space-x-1"
                   type="submit"
               >
                 <span>Send</span>
