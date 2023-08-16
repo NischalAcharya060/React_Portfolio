@@ -50,24 +50,30 @@ const Contact = () => {
           <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
         </div>
         <div className="card-wrapper w-[90%] sm:w-[100%] mx-auto mt-5 flex items-center justify-center sm:flex-col">
-          <div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">
-            <div className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
-              <div data-aos="zoom-in">
-                <h1 className="text-5xl font-bold sm:text-3xl">You Need</h1>
-                <h3 className="text-xl sm:text-lg">
-                  If you need any help, feel free to leave a message.
-                </h3>
-              </div>
+          {/*<div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">*/}
+            <div data-aos="zoom-in-right" className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
+              <iframe
+                  title="Google Map"
+                  width="100%"
+                  height="450"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  style={{ border: 0 }}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30116.575822373507!2d87.72271519462625!3d26.565914661095416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e59aeb2ac5d359%3A0x8a740efe290d8ed2!2sGauradaha%2057200!5e0!3m2!1sen!2snp!4v1673688312482!5m2!1sen!2snp"
+                  allowFullScreen
+              ></iframe>
             </div>
-            <div className="flex p-5 items-center justify-center">
-              <button
-                  data-aos="zoom-in"
-                  className="text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)]"
-              >
-                <BsArrowRight className="md:rotate-90" />
-              </button>
-            </div>
-          </div>
+
+            {/*<div className="flex p-5 items-center justify-center">*/}
+            {/*  <button*/}
+            {/*      data-aos="zoom-in"*/}
+            {/*      className="text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)]"*/}
+            {/*  >*/}
+            {/*    <BsArrowRight className="md:rotate-90" />*/}
+            {/*  </button>*/}
+            {/*</div>*/}
+          {/*</div>*/}
           <div className="right flex-1">
             <form
                 ref={formRef}
