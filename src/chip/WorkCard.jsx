@@ -34,7 +34,7 @@ const WorkCard = () => {
                 </p>
                 <br/>
                 <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">Technologies Used</p>
-                <span className="text-gray-900 text-base leading-[1.4] text-justify w-[90%]">{data.tech}</span>
+                <span className="text-gray-900 text-base leading-[1.4] text-justify w-[90%]" style={{padding: '6px 12px', backgroundColor: '#f2f2f2', marginRight: '6px', borderRadius: '15px',}}>{data.tech}</span>
                 <div className=" flex items-center justify-center gap-4">
                   <Link
                     to={data.link}
