@@ -35,7 +35,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        "text-yellow-500": "#ffc312",
+        "text-violet-500": "#ffc312",
       },
     },
   },

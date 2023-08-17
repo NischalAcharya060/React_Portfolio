@@ -1,5 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import { BarLoader } from "react-spinners";
+import AnimatedCursor from "react-animated-cursor"
 
 const Home = lazy(() => import("./pages/Home"));
 
@@ -34,6 +35,9 @@ const App = () => {
             ) : (
                 <Home />
             )}
+            <div className="App">
+                <AnimatedCursor/>
+            </div>
         </Suspense>
     );
 };
