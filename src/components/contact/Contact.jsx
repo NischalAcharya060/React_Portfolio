@@ -11,6 +11,7 @@ const Contact = () => {
   const formRef = useRef();
   const recaptchaRef = useRef();
   const [submitStatus, setSubmitStatus] = useState(null);
+  const [lastSubmissionTime, setLastSubmissionTime] = useState(null);
 
   const sendEmail = async (e) => {
     e.preventDefault();
@@ -19,6 +20,12 @@ const Contact = () => {
 
     if (!reCAPTCHAValue) {
       toast.error("Please complete the reCAPTCHA.");
+      return;
+    }
+
+    const currentTime = new Date().getTime();
+    if (lastSubmissionTime && currentTime - lastSubmissionTime < 5 * 60 * 1000) {
+      toast.error("Please wait at least 5 minutes before submitting another form.");
       return;
     }
 
@@ -31,6 +38,8 @@ const Contact = () => {
       );
       console.log("Email sent successfully");
       toast.success("Your form has been submitted successfully");
+      setLastSubmissionTime(currentTime);
+      recaptchaRef.current.reset();
     } catch (error) {
       console.error("Error sending email", error);
       toast.error("Error while submitting your form. Please try again later.");
