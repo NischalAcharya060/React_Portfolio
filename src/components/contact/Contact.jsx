@@ -58,6 +58,13 @@ const Contact = () => {
           </h3>
           <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
         </div>
+        <div
+            data-aos="fade-up"
+            className="left flex-1 w-full">
+          <p className="text-gray-700 font-medium w-[100%]">
+            Here You can Contact Me.
+          </p>
+        </div>
         <div className="card-wrapper w-[90%] sm:w-[100%] mx-auto mt-5 flex items-center justify-center sm:flex-col">
           {/*<div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">*/}
             <div data-aos="zoom-in-right" className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
