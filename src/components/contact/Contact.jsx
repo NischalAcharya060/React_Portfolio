@@ -67,7 +67,8 @@ const Contact = () => {
           </p>
         </div>
         {/* Contact Information Boxes */}
-        <div className="contact-info-boxes">
+        <div className="contact-info-boxes" data-aos="fade-up"
+             data-aos-duration="5000">
           {/* Email Box */}
           <div className="contact-info-box">
             <AiOutlineMail className="icon" />
@@ -119,7 +120,6 @@ const Contact = () => {
             {/*</div>*/}
           {/*</div>*/}
           {/*<div className="right flex-1">*/}
-          {/*  <div className="right flex-1 border border-gray-300 p-4 rounded-lg">*/}
             <form
                 ref={formRef}
                 onSubmit={sendEmail}

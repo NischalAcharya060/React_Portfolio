@@ -33,7 +33,7 @@ const App = () => {
                     <BarLoader color="#f6c400" height={4} />
                 </div>
             ) : (
-                <Home />
+                <Home/>
             )}
             <div className="App">
                 <AnimatedCursor/>
