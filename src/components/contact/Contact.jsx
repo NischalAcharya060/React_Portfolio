@@ -98,28 +98,28 @@ const Contact = () => {
                 className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
             >
               <input
-                  className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                  className="px-3 border border-gray-300 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
                   type="email"
                   placeholder="Email: Nischal060@gmail.com"
                   name="user_email"
                   required
               />
               <input
-                  className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                  className="px-3 border border-gray-300 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
                   type="text"
                   placeholder="Name: Nischal Acharya"
                   name="user_name"
                   required
               />
               <input
-                  className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                  className="px-3 border border-gray-300 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
                   type="text"
                   placeholder="Subject: I need help in this..."
                   name="user_subject"
                   required
               />
               <textarea
-                  className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                  className="px-3 border border-gray-300 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
                   rows="4"
                   cols="50"
                   placeholder="Message: Write your message"
