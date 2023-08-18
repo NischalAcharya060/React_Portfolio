@@ -45,8 +45,8 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={90} />
                 <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={90} />
                 <ProgressBar logo={<SiJavascript />} name={"Javascript"} value={50}/>
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={20} />
                 <ProgressBar logo={<FaPhp />} name={"PHP"} value={30} />
+                <ProgressBar logo={<FaReact />} name={"React Js"} value={20} />
                 <ProgressBar logo={<FaLaravel />} name={"Laravel"} value={20}/>
               </div>
             </div>
