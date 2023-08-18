@@ -50,32 +50,32 @@ const Resume = () => {
                 </p>
               </div>
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
+            <br className="mobile-hide"/>
             {/*<div className="relative">*/}
             {/*  /!* design *!/*/}
             {/*  <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">*/}
