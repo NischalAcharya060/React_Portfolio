@@ -80,12 +80,6 @@ const Skills = ({ darkMode }) => {
                 white={"white"}
                 skill={"Flutter"}
               />
-               <SkillBox
-                logo={<SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />}
-                black={"black"}
-                white={"white"}
-                skill={"Next Js"}
-              />
             </div>
           </div>
         </div>
