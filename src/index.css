@@ -96,6 +96,40 @@ html {
   }
 }
 
+/*!* Add border effect and styling to form container and external wrapper on smaller screens *!*/
+/*@media (max-width: 768px) {*/
+/*  .form-container {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);*/
+/*  }*/
+
+/*  .form-container label {*/
+/*    display: block;*/
+/*    margin-bottom: 5px;*/
+/*  }*/
+
+/*  .external-wrapper {*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 10px;*/
+/*    padding: 10px;*/
+/*    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);*/
+/*  }*/
+/*}*/
+
+/*!* Hide border effect and styling for desktop screens *!*/
+/*@media (min-width: 769px) {*/
+/*  .form-container,*/
+/*  .external-wrapper {*/
+/*    border: none;*/
+/*    border-radius: 0;*/
+/*    padding: 0;*/
+/*    box-shadow: none;*/
+/*  }*/
+/*}*/
+
 /* Hero circular spin */
 .circle-text{
   -webkit-animation: spin 12s linear infinite;

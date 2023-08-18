@@ -49,8 +49,6 @@ const Contact = () => {
     e.target.reset();
   };
 
-
-
   return (
       <div id="contact" className="container m-auto mt-16">
         <div className="relative mb-5">
