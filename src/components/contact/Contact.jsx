@@ -153,6 +153,7 @@ const Contact = () => {
               <div className="text-left w-full">
                 <label htmlFor="user_subject" className="text-gray-600 font-semibold mb-1 flex items-center">
                   <span className="material-symbols-outlined">import_contacts</span>
+                  &nbsp;
                    Subject
                 </label>
                 <input
