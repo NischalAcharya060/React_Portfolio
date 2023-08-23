@@ -12,6 +12,14 @@ import NischalCV from "../../assets/Nischal_Acharya_CV.pdf";
 
 
 const Hero = () => {
+
+  const openLink = (url) => {
+    try {
+      window.open(url, "_blank");
+    } catch (error) {
+      console.error("Error opening link:", error);
+    }
+  };
   return (
     <div id="home" className={` bg-gradient-to-r from-green-200 to-blue-200 `}>
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
@@ -72,34 +80,29 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/NischalAcharya060" target={"_blank"}>
-                  {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
-                </a>
+                <button onClick={() => openLink("https://github.com/NischalAcharya060")}>
+                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
+                </button>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/nischal-acharya101/" target={"_blank"}>
-                  {" "}
-                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
-                </a>
+                <button onClick={() => openLink("https://www.linkedin.com/in/nischal-acharya101/")}>
+                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
+                </button>
               </li>
               <li>
-                <a href="https://www.instagram.com/its_nischalacharya/" target={"_blank"}>
-                  {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
+                <button onClick={() => openLink("https://www.instagram.com/its_nischalacharya/")}>
+                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
+                </button>
               </li>
               <li>
-                <a href="https://www.facebook.com/Nischal.Acharya.58760" target={"_blank"}>
-                  {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
+                <button onClick={() => openLink("https://www.facebook.com/Nischal.Acharya.58760")}>
+                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
+                </button>
               </li>
               <li>
-                <a href="https://twitter.com/Nischal79783380" target={"_blank"}>
-                  {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
+                <button onClick={() => openLink("https://twitter.com/Nischal79783380")}>
+                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
+                </button>
               </li>
             </ul>
           </div>
