@@ -49,11 +49,19 @@ export const data = [
   {
     id: 6,
     img: 'https://i.postimg.cc/pL1Yvcsb/Project-Management-System.png',
-    title: "Project Management System",
+    title: "Project Management System(SYP)",
     desc: "A web-based application for managing projects, tasks, and team collaboration.",
     link: "https://github.com/NischalAcharya060/Second-Year-Project",
     git: "https://github.com/NischalAcharya060/Second-Year-Project",
     tech: "HTML, CSS, JS, PHP",
-  }
-  
+  },
+  {
+    id: 7,
+    img: 'https://i.postimg.cc/ZqCG11tM/Kick-Up-Futsal.png',
+    title: "Kick Up Futsal(FYP)",
+    desc: "The system provides dedicated interfaces for users, futsal managers, and administrators, ensuring a smooth and efficient booking experience.",
+    link: "https://github.com/NischalAcharya060/Kick-Up-Futsal.git",
+    git: "https://github.com/NischalAcharya060/Kick-Up-Futsal.git",
+    tech: "HTML, CSS, JS, Laravel, Postgres SQL, API",
+  },
 ];
