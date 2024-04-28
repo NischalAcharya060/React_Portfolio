@@ -28,9 +28,9 @@ const Hero = () => {
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
                 data-aos="fade-up"
-                className=" text-5xl font-bold sm:text-[2rem]"
+                className="text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm Nischal Acharya
+              Hello, I'm Nischal <span className="text-violet-700">Acharya</span>
             </h2>
             <TypeAnimation
                 data-aos="fade-up"
@@ -111,10 +111,10 @@ const Hero = () => {
         <div className="flex justify-center items-center h-screen">
           <div className="relative h-4/5 md:h-3/4 w-full md:w-3/4 lg:w-2/3 xl:w-1/2">
             <img
-                data-aos="fade-up"
+                data-aos="fade-right"
                 className="w-full h-full object-cover rounded-md shadow-md filter brightness-110 contrast-125"
                 src="https://i.postimg.cc/hvzjr5hT/IMG-1014.jpg"
-                alt="Your Portfolio Image"
+                alt="Nischal Acharya Portfolio Image"
             />
           </div>
         </div>

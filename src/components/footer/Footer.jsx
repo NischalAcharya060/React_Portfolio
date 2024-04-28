@@ -83,7 +83,7 @@ const Footer = () => {
 
         <div className="sm:text-[12px]" style={{ cursor: 'pointer' }}>
           | Copyright &copy;<span>{new Date().getFullYear()} </span>
-          <a href="https://acharyanischal.com.np" target="_blank" style={{ fontWeight: 'bold' }}>Nischal Acharya</a> All rights reserved |
+          <a href="https://acharyanischal.com.np" target="_blank" style={{ fontWeight: 'bold', color:'white' }}>Nischal Acharya</a> All rights reserved |
         </div>
       </div>
     </div>

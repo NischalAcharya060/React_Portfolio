@@ -22,7 +22,7 @@ export const data = [
   {
     id: 3,
     img: 'https://i.postimg.cc/8krhrtsb/Bus-Management-System.webp',
-    title: "Bus Management System",
+    title: "Bus Management System(IOT)",
     desc: "An internet-based IoT tool for monitoring bus routes and schedules. Aurdino, as well as other sensors and tools, are used in our project as our additional technology.",
     link: "https://busmanagementsystem.rf.gd/login.php",
     git: "https://github.com/NischalAcharya060/Bus_Management_System",

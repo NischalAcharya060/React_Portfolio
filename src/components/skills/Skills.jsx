@@ -38,16 +38,16 @@ const Skills = ({ darkMode }) => {
             </p>
             {/* left box */}
             <div
-              data-aos="zoom-in"
-              className="progress flex items-center h-[100%] justify-end md:justify-center"
+                data-aos="zoom-in"
+                className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
-              <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={90} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={90} />
-                <ProgressBar logo={<SiJavascript />} name={"Javascript"} value={50}/>
-                <ProgressBar logo={<FaPhp />} name={"PHP"} value={30} />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={20} />
-                <ProgressBar logo={<FaLaravel />} name={"Laravel"} value={20}/>
+              <div className="flex flex-col gap-6 w-3/4 my-5 md:w-[90%]">
+                <ProgressBar logo={<IoLogoHtml5/>} name="HTML" value={90}/>
+                <ProgressBar logo={<IoLogoCss3/>} name="CSS" value={90}/>
+                <ProgressBar logo={<SiJavascript/>} name="JavaScript" value={50}/>
+                <ProgressBar logo={<FaPhp/>} name="PHP" value={30}/>
+                <ProgressBar logo={<FaReact/>} name="React JS" value={20}/>
+                <ProgressBar logo={<FaLaravel/>} name="Laravel" value={20}/>
               </div>
             </div>
           </div>
@@ -55,14 +55,14 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                logo={<IoLogoNodejs />}
-                black={"white"}
-                white={"black"}
-                skill={"Node Js"}
+                  logo={<IoLogoNodejs/>}
+                  black={"white"}
+                  white={"black"}
+                  skill={"Node Js"}
               />
               <SkillBox
-                logo={<SiMongodb />}
-                black={"white"}
+                  logo={<SiMongodb/>}
+                  black={"white"}
                 white={"black"}
                 skill={"MongoDB"}
               />
@@ -93,32 +93,39 @@ const Skills = ({ darkMode }) => {
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://www.agilesparks.com/wp-content/uploads/2022/08/Java_logo_icon.png"
+            alt="Java Logo"
           />
 
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://img.icons8.com/color/48/null/python--v1.png"
+            alt="Python Logo"
           />
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://img.icons8.com/ios/50/null/react-native--v1.png"
+            alt="React_Native Logo"
           />
 
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://img.icons8.com/color/48/null/sass.png"
+            alt="Sass Logo"
             />
+
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://img.icons8.com/ios-filled/50/null/git.png"
+            alt="Git Logo"
             />
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://img.icons8.com/color/48/null/c-plus-plus-logo.png"
+            alt="C++ Logo"
           />
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/nodejs.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"/>
+          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/javascript--v1.png" alt="JS Logo"/>
+          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/nodejs.png" alt="Node Js Logo"/>
+          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png" alt="Mongo DB Logo"/>
         </div>
       </div>
     </div>
