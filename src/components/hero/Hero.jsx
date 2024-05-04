@@ -49,7 +49,7 @@ const Hero = () => {
                 className="text-violet-700 text-4xl font-bold sm:text-3xl"
             />
             <p
-                // data-aos="fade-up"
+                data-aos="fade-up"
                 className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
               I'm Nischal Acharya,

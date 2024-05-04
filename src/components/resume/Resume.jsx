@@ -1,12 +1,14 @@
 import React from "react";
+import {AiFillFileText} from "react-icons/ai";
+import {FaBriefcase, FaGraduationCap} from "react-icons/all.js";
 
 const Resume = () => {
   return (
     <div id="resume" className=" container m-auto   mt-16">
       {/* heading */}
       <div data-aos="fade-up" className="relative mb-5">
-        <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-          Resume
+        <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl flex items-center">
+          Resume <AiFillFileText className="ml-2" />
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
@@ -22,7 +24,8 @@ const Resume = () => {
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-violet-500">
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-violet-500 flex items-center">
+              <FaBriefcase className="mr-2" />
               Experience
             </legend>
             <div className="relative">
@@ -38,10 +41,10 @@ const Resume = () => {
                   Full-stack Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Shangrila Microsystem Pvt Ltd
+                  Shangrila Microsystem Pvt Ltd (Intership)
                 </span>
                 <span className=" text-[.9rem] font-semibold text-violet-500 sm:text-base">
-                  June 2023 - Present (Intership)
+                  June 2023 - September 2023
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                   During my internship at Shangrila Microsystem Pvt Ltd, I've gained practical experience as a Full-stack Developer. I've worked with Laravel and Vue.js to develop user-friendly web applications. I've contributed to both front-end and back-end tasks, enhancing my skills in modern web development technologies.
@@ -108,7 +111,8 @@ const Resume = () => {
         {/*Education*/}
         <div className="right flex-1 flex items-center justify-center">
           <fieldset data-aos="zoom-in" className="w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2">
-            <legend className="w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-violet-500">
+            <legend className="w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-violet-500 flex items-center">
+              <FaGraduationCap className="mr-2" />
               Education
             </legend>
 

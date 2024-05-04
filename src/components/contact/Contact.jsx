@@ -6,6 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ReCAPTCHA from "react-google-recaptcha";
 import { AiOutlineMail, AiOutlinePhone, AiOutlineHome, AiOutlineMobile } from "react-icons/ai";
+import {FaEnvelope} from "react-icons/all.js";
 
 
 const Contact = () => {
@@ -52,8 +53,8 @@ const Contact = () => {
   return (
       <div id="contact" className="container m-auto mt-16">
         <div className="relative mb-5">
-          <h3 className="text-3xl font-black text-gray-400 sm:text-2xl">
-            Contact
+          <h3 className="text-3xl font-black text-gray-400 sm:text-2xl flex items-center">
+            Contact <FaEnvelope className="ml-2" />
           </h3>
           <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
         </div>
@@ -68,29 +69,32 @@ const Contact = () => {
         {/* Contact Information Boxes */}
         <div className="contact-info-boxes" data-aos="fade-up" data-aos-duration="5000">
           {/* Email Box */}
-          <div className="contact-info-box">
+            <a href="mailto:Nischal060@gmail.com" className="contact-info-box">
             <AiOutlineMail className="icon"/>
             <div>
               <h3>Email</h3>
               <p>Nischal060@gmail.com</p>
             </div>
-          </div>
+            </a>
           {/* Phone Number Box */}
-          <div className="contact-info-box">
-            <AiOutlineMobile className="icon"/>
-            <div>
-              <h3>Phone Number</h3>
-              <p>+977-9806081469</p>
-            </div>
-          </div>
+            <a href="tel:+9779806081469" className="contact-info-box">
+              <AiOutlineMobile className="icon"/>
+              <div>
+                <h3>Phone Number</h3>
+                <p>+977-9806081469</p>
+              </div>
+            </a>
           {/* Address Box */}
-          <div className="contact-info-box">
-            <AiOutlineHome className="icon"/>
-            <div>
-              <h3>Address</h3>
-              <p>Gauradaha Jhapa, Nepal</p>
-            </div>
-          </div>
+          {/*<div className="contact-info-box">*/}
+            <a href="https://maps.app.goo.gl/b26iHtYRTUJWR1df9" className="contact-info-box" target="_blank"
+               rel="noopener noreferrer">
+              <AiOutlineHome className="icon"/>
+              <div>
+                <h3>Address</h3>
+                <p>Gauradaha Jhapa, Nepal</p>
+              </div>
+            </a>
+          {/*</div>*/}
         </div>
         {/* Google Map */}
         <div className="w-full mt-5">

@@ -13,7 +13,7 @@ import {
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { SiNextdotjs } from "react-icons/si";
-import {FaLaravel, FaPhp, FaReact} from "react-icons/fa";
+import {FaLaravel, FaPhp, FaReact, FaTools} from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
 const Skills = ({ darkMode }) => {
@@ -22,8 +22,8 @@ const Skills = ({ darkMode }) => {
       <div className=" container m-auto  mt-16">
         {/* heading */}
         <div data-aos="fade-up" className="relative mb-5">
-          <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-            My Skills
+          <h3 className="text-3xl font-black text-gray-400 sm:text-2xl flex items-center">
+            My Skills <FaTools className="ml-2" />
           </h3>
           <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
         </div>
