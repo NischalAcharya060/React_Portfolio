@@ -109,7 +109,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex justify-center items-center h-screen">
-          <div className="relative h-4/5 md:h-3/4 w-full md:w-3/4 lg:w-2/3 xl:w-1/2">
+          <div
+              className="relative h-4/5 md:h-3/4 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 rounded-md overflow-hidden md:order-2">
             <img
                 data-aos="fade-right"
                 className="w-full h-full object-cover rounded-md shadow-md filter brightness-110 contrast-125"
