@@ -71,4 +71,14 @@ export const data = [
     git: "https://github.com/NischalAcharya060/Kick-Up-Futsal.git",
     tech: "HTML, CSS, JS, Laravel, Postgres SQL, API",
   },
+  {
+    id: 8,
+    img: 'https://i.postimg.cc/XNPY2V2X/Blood-Management-System.png',
+    title: "Blood Management System",
+    alt: "Blood Management System by Nischal Acharya",
+    desc: "The system provides dedicated interfaces for users, donors, and administrators, ensuring a smooth and efficient blood management.",
+    link: "https://github.com/NischalAcharya060/Blood_Management_System.git",
+    git: "https://github.com/NischalAcharya060/Blood_Management_System.git",
+    tech: "HTML, CSS, JS, Laravel, Postgres SQL",
+  },
 ];
