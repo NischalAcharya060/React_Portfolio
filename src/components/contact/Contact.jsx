@@ -33,7 +33,7 @@ const Contact = () => {
 
     try {
       await emailjs.sendForm(
-          "service_w7jgtt5",
+          "service_elk86vl",
           "template_oai1n69",
           e.target,
           "-qiVxTcSYDKmI-Zkf"
