@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import {FaFacebook, FaHandshake, FaLinkedinIn} from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
@@ -60,9 +60,10 @@ const Hero = () => {
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
                 href="https://www.linkedin.com/in/nischal-acharya101/"
-                className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-violet-700"
-                target={"_blank"}>
-              <span> Hire Me</span>
+                className="bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold hover:text-violet-700 flex items-center"
+                target="_blank"
+            >
+              <FaHandshake className="mr-2"/> <span>Hire Me</span>
             </a>
             <a
                 href={Nischal_CV}
