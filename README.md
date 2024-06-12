@@ -2,6 +2,9 @@
 
 Welcome to my first React portfolio! This portfolio showcases my skills, projects, and experiences as a developer. It's built using React, and I'm excited to share it with you.
 
+# Screenshot 
+![Homepage](https://i.postimg.cc/d0fHx6Sc/HomePage.png)
+
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
@@ -20,8 +23,7 @@ This portfolio is a way for me to present my skills and projects to potential em
 - Interactive components to engage users.
 
 ## Installation
-1. Clone the repository:
-git clone https://github.com/YourUsername/React_Portfolio.git
+1. Clone the repository: git clone`https://github.com/YourUsername/React_Portfolio.git`
 
 2. Navigate to the project directory:
 cd React_Portfolio
@@ -53,4 +55,4 @@ If you have any questions, suggestions, or opportunities, feel free to get in to
 Thank you for visiting my portfolio!
 
 ---
-*Copyright © 2023 Nischal Acharya. All rights reserved.*
+*Copyright © 2024 Nischal Acharya. All rights reserved.*
