@@ -100,7 +100,8 @@ const Contact = () => {
               <p>+977-9806081469</p>
             </div>
           </a>
-          <a href="https://maps.app.goo.gl/b26iHtYRTUJWR1df9" className="contact-info-box" target="_blank" rel="noopener noreferrer">
+          <a href="https://maps.app.goo.gl/b26iHtYRTUJWR1df9" className="contact-info-box" target="_blank"
+             rel="noopener noreferrer">
             <AiOutlineHome className="icon"/>
             <div>
               <h3>Address</h3>
@@ -117,14 +118,15 @@ const Contact = () => {
           ></iframe>
         </div>
         <div className="w-full md:w-2/3 lg:w-1/2 mx-auto">
-          <form ref={formRef} onSubmit={sendEmail} data-aos="zoom-in" className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto">
+          <form ref={formRef} onSubmit={sendEmail} data-aos="zoom-in"
+                className="flex flex-col gap-6 w-[90%] md:w-[100%] mx-auto">
             <div className="text-left w-full">
-              <label htmlFor="user_email" className="block mb-1 text-gray-600 font-semibold flex items-center">
+              <label htmlFor="user_email" className="block mb-2 text-gray-700 font-semibold flex items-center">
                 <span className="material-icons mr-2">email</span>
                 Email
               </label>
               <input
-                  className="px-3 border border-gray-300 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                  className="px-4 py-2 border border-gray-300 shadow-sm rounded-lg w-full focus:ring-2 focus:ring-violet-600 focus:border-transparent"
                   type="email"
                   placeholder="Enter Your Email Address"
                   name="user_email"
@@ -132,12 +134,12 @@ const Contact = () => {
               />
             </div>
             <div className="text-left w-full">
-              <label htmlFor="user_name" className="text-gray-600 font-semibold mb-1 flex items-center">
+              <label htmlFor="user_name" className="block mb-2 text-gray-700 font-semibold flex items-center">
                 <span className="material-icons mr-2">person</span>
                 Name
               </label>
               <input
-                  className="px-3 border border-gray-300 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                  className="px-4 py-2 border border-gray-300 shadow-sm rounded-lg w-full focus:ring-2 focus:ring-violet-600 focus:border-transparent"
                   type="text"
                   placeholder="Enter Your Name"
                   name="user_name"
@@ -145,13 +147,12 @@ const Contact = () => {
               />
             </div>
             <div className="text-left w-full">
-              <label htmlFor="user_subject" className="text-gray-600 font-semibold mb-1 flex items-center">
+              <label htmlFor="user_subject" className="block mb-2 text-gray-700 font-semibold flex items-center">
                 <span className="material-symbols-outlined">import_contacts</span>
-                &nbsp;
                 Subject
               </label>
               <input
-                  className="px-3 border border-gray-300 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                  className="px-4 py-2 border border-gray-300 shadow-sm rounded-lg w-full focus:ring-2 focus:ring-violet-600 focus:border-transparent"
                   type="text"
                   placeholder="Enter Your Subject"
                   name="user_subject"
@@ -159,27 +160,31 @@ const Contact = () => {
               />
             </div>
             <div className="text-left w-full">
-              <label htmlFor="message" className="text-gray-600 font-semibold mb-1 flex items-center">
+              <label htmlFor="message" className="block mb-2 text-gray-700 font-semibold flex items-center">
                 <span className="material-icons mr-2">message</span>
                 Message
               </label>
               <textarea
-                  className="px-3 border border-gray-300 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                  className="px-4 py-2 border border-gray-300 shadow-sm rounded-lg w-full focus:ring-2 focus:ring-violet-600 focus:border-transparent"
                   rows="4"
-                  cols="50"
                   placeholder="Write Your Message"
                   name="message"
                   required
               />
             </div>
-            <ReCAPTCHA ref={recaptchaRef} sitekey="6Leu0q4nAAAAAA6B5LZvGfCbM432JKOtvgCtiUCO" />
-            <button className="bg-violet-700 hover:bg-violet-800 w-full text-white font-semibold p-2 rounded-lg flex items-center justify-center space-x-1" type="submit" onClick={handleClick}>
+            <div className="flex justify-center w-full">
+              <ReCAPTCHA ref={recaptchaRef} sitekey="6Leu0q4nAAAAAA6B5LZvGfCbM432JKOtvgCtiUCO"/>
+            </div>
+            <button
+                className="bg-violet-700 hover:bg-violet-800 w-full text-white font-semibold py-2 rounded-lg flex items-center justify-center space-x-2 transition duration-300 ease-in-out transform hover:scale-105"
+                type="submit" onClick={handleClick}>
               <span>Send</span>
-              <RiSendPlaneFill className={`ml-2 ${animate ? 'animated-plane' : ''}`} />
+              <RiSendPlaneFill className={`ml-2 ${animate ? 'animated-plane' : ''}`}/>
             </button>
-            <ToastContainer />
+            <ToastContainer/>
           </form>
         </div>
+
       </div>
   );
 };
