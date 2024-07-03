@@ -42,12 +42,12 @@ const Skills = ({ darkMode }) => {
                 className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className="flex flex-col gap-6 w-3/4 my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5/>} name="HTML" value={90}/>
-                <ProgressBar logo={<IoLogoCss3/>} name="CSS" value={90}/>
-                <ProgressBar logo={<SiJavascript/>} name="JavaScript" value={50}/>
-                <ProgressBar logo={<FaPhp/>} name="PHP" value={30}/>
-                <ProgressBar logo={<FaReact/>} name="React JS" value={20}/>
-                <ProgressBar logo={<FaLaravel/>} name="Laravel" value={20}/>
+                <ProgressBar logo={<IoLogoHtml5/>} name="HTML" value={90} color="#e34c26" iconColor="#e34c26"/>
+                <ProgressBar logo={<IoLogoCss3/>} name="CSS" value={90} color="#2965f1" iconColor="#2965f1"/>
+                <ProgressBar logo={<SiJavascript/>} name="JavaScript" value={50} color="#f0db4f" iconColor="#f0db4f"/>
+                <ProgressBar logo={<FaPhp/>} name="PHP" value={30} color="#818ceb" iconColor="#818ceb"/>
+                <ProgressBar logo={<FaReact/>} name="React JS" value={20} color="#61DBFB" iconColor="#61DBFB"/>
+                <ProgressBar logo={<FaLaravel/>} name="Laravel" value={20} color="#fb503b" iconColor="#fb503b"/>
               </div>
             </div>
           </div>
@@ -55,27 +55,27 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                  logo={<IoLogoNodejs/>}
+                  logo={<IoLogoNodejs style={{ color: '#83CD29' }}/>}
                   black={"white"}
                   white={"black"}
                   skill={"Node Js"}
               />
               <SkillBox
-                  logo={<SiMongodb/>}
+                  logo={<SiMongodb style={{ color: '#4DB33D'}}/>}
                   black={"white"}
-                white={"black"}
-                skill={"MongoDB"}
+                  white={"black"}
+                  skill={"MongoDB"}
               />
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiVuedotjs />}
+                  logo={<SiVuedotjs style={{ color: '#34495e' }}/>}
                 black={"black"}
                 white={"white"}
                 skill={"Vue Js"}
               />
               <SkillBox
-                logo={<SiFlutter/>}
+                logo={<SiFlutter style={{ color: ' #42A5F5' }}/>}
                 black={"black"}
                 white={"white"}
                 skill={"Flutter"}
