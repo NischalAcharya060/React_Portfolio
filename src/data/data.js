@@ -81,4 +81,14 @@ export const data = [
     git: "https://github.com/NischalAcharya060/Blood_Management_System.git",
     tech: "HTML, CSS, JS, Laravel, Postgres SQL",
   },
+  {
+    id: 9,
+    img: 'https://i.postimg.cc/6QHhvVcS/Weather-app.png',
+    title: "Weather App",
+    alt: "Weather App by Nischal Acharya",
+    desc: "This is react weather app.",
+    link: "https://nischalacharyaweatherapp.netlify.app/",
+    git: "https://github.com/NischalAcharya060/Weather-App.git",
+    tech: "React, Open Weather Api",
+  },
 ];
