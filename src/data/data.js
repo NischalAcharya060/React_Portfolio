@@ -83,7 +83,7 @@ export const data = [
   },
   {
     id: 9,
-    img: 'https://i.postimg.cc/6QHhvVcS/Weather-app.png',
+    img: 'https://i.postimg.cc/X7DDw7GJ/Weather-app.png',
     title: "Weather App",
     alt: "Weather App by Nischal Acharya",
     desc: "This is react weather app.",
