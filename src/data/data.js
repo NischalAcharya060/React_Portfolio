@@ -91,4 +91,14 @@ export const data = [
     git: "https://github.com/NischalAcharya060/Weather-App.git",
     tech: "React, Open Weather Api",
   },
+  {
+    id: 10,
+    img: 'https://i.postimg.cc/rwDNPkbs/Resume-Builder.png',
+    title: "Resume Builder",
+    alt: "Resume Builder by Nischal Acharya",
+    desc: "Resume Builder is a React-based application designed by Nischal Acharya. It allows users to create resumes quickly and easily.",
+    link: "https://nischalacharyaresumebuilder.netlify.app/",
+    git: "https://github.com/NischalAcharya060/Resume-Builder.git",
+    tech: "React",
+  },
 ];
