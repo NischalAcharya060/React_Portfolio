@@ -101,4 +101,14 @@ export const data = [
     git: "https://github.com/NischalAcharya060/Resume-Builder.git",
     tech: "React",
   },
+  {
+    id: 11,
+    img: 'https://i.postimg.cc/fRMQSWY2/Food-Delivery.png',
+    title: "Food Delivery App",
+    alt: "Food Delivery App by Nischal Acharya",
+    desc: "This is a Food Delivery App built using Expo and Firebase. It features user authentication, profile management, real-time data updates, map integration, and a clean, modern UI.",
+    link: "https://github.com/NischalAcharya060/Food-Delivery-App.git",
+    git: "https://github.com/NischalAcharya060/Food-Delivery-App.git",
+    tech: "React",
+  },
 ];

@@ -29,7 +29,7 @@ const WorkCard = () => {
                     <img
                         src={data.img}
                         alt={data.alt}
-                        className=" object-fit w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
+                        className=" object-fit h-full hover:scale-125 transition duration-500 cursor-pointer"
                     />
                   </div>
 
