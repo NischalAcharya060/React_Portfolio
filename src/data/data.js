@@ -103,7 +103,7 @@ export const data = [
   },
   {
     id: 11,
-    img: 'https://i.postimg.cc/fRMQSWY2/Food-Delivery.png',
+    img: 'https://i.postimg.cc/VLyGZYLY/Food-Delivery.png',
     title: "Food Delivery App",
     alt: "Food Delivery App by Nischal Acharya",
     desc: "This is a Food Delivery App built using Expo and Firebase. It features user authentication, profile management, real-time data updates, map integration, and a clean, modern UI.",
