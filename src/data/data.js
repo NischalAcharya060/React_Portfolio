@@ -109,6 +109,6 @@ export const data = [
     desc: "This is a Food Delivery App built using Expo and Firebase. It features user authentication, profile management, real-time data updates, map integration, and a clean, modern UI.",
     link: "https://github.com/NischalAcharya060/Food-Delivery-App.git",
     git: "https://github.com/NischalAcharya060/Food-Delivery-App.git",
-    tech: "React",
+    tech: "React Native, Firebase, Open Street Map",
   },
 ];
