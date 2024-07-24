@@ -16,11 +16,11 @@ const App = () => {
     return (
         <Suspense
             fallback={
-                <LoadingIndicator message="Nischal Acharya Portfolio Loading" />
+                <LoadingIndicator message="Nischal Acharya Portfolio Loading🏃‍♂️‍➡️" />
             }
         >
             {loading ? (
-                <LoadingIndicator message="Nischal Acharya Portfolio Loading" />
+                <LoadingIndicator message="Nischal Acharya Portfolio Loading🏃‍♂️‍➡️" />
             ) : (
                 <Home/>
             )}

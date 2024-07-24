@@ -132,7 +132,7 @@ const Resume = () => {
                   London Metropolitan University
                 </span>
                 <span className=" text-[.9rem] font-semibold text-violet-500 sm:text-base">
-                  February 2022 - Present
+                  February 2022 - 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                   Pursuing a BSc (Hons) in Computing at London Metropolitan University. My studies have equipped me with a solid foundation in various areas of computer science. From algorithms to software engineering principles, I've developed a deep understanding of the field.
