@@ -72,6 +72,61 @@ const Contact = () => {
             display: inline-block;
             animation: fly 0.5s ease-in-out forwards;
           }
+
+          .contact-info-box:hover .icon {
+            animation: bounce 0.3s ease-in-out;
+          }
+
+          @keyframes bounce {
+            0%, 100% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-5px);
+            }
+          }
+
+          input:focus, textarea:focus {
+            border-color: #7c3aed;
+            box-shadow: 0 0 10px rgba(124, 58, 237, 0.5);
+            transform: scale(1.02);
+            transition: all 0.3s ease-in-out;
+          }
+
+          button:hover {
+            transform: scale(1.1) rotate(-3deg);
+          }
+
+          .Toastify__toast--success {
+            animation: slideInRight 0.5s ease;
+          }
+
+          .Toastify__toast--error {
+            animation: shake 0.5s ease;
+          }
+
+          @keyframes slideInRight {
+            from {
+              transform: translateX(100%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+
+          @keyframes shake {
+            0%, 100% {
+              transform: translateX(0);
+            }
+            25%, 75% {
+              transform: translateX(-5px);
+            }
+            50% {
+              transform: translateX(5px);
+            }
+          }
         `}
         </style>
         <div className="relative mb-5">
