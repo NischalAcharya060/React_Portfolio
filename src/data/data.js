@@ -111,4 +111,14 @@ export const data = [
     git: "https://github.com/NischalAcharya060/Food-Delivery-App.git",
     tech: "React Native, Firebase, Open Street Map",
   },
+    {
+        id: 12,
+        img: 'https://i.postimg.cc/wxmF69yt/Salakpur-Khaneapani.png',
+        title: "Salakpur Khaneapani",
+        alt: "Salakpur Khaneapani Management System by Nischal Acharya",
+        desc: "A complete web-based water management system for Salakpur Khaneapani. It includes admin login, notice management, multi-language support (English & Nepali), profile customization, and record tracking.",
+        link: "https://salakpurkhanepani.rf.gd/",
+        git: "https://github.com/NischalAcharya060/Khanepani.git",
+        tech: "HTML, CSS, JavaScript, PHP, MySQL",
+    },
 ];
