@@ -117,7 +117,7 @@ export const data = [
         title: "Salakpur Khaneapani",
         alt: "Salakpur Khaneapani Management System by Nischal Acharya",
         desc: "A complete web-based water management system for Salakpur Khaneapani. It includes admin login, notice management, multi-language support (English & Nepali), profile customization, and record tracking.",
-        link: "https://salakpurkhanepani.rf.gd/",
+        link: "https://khanepani-86760.wasmer.app/",
         git: "https://github.com/NischalAcharya060/Khanepani.git",
         tech: "HTML, CSS, JavaScript, PHP, MySQL",
     },
